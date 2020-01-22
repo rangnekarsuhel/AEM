@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: com.AEM.example:SlideShow
+Content-Package-Roots: /apps/example/components/content/slideshow
+Content-Package-Type: application
+

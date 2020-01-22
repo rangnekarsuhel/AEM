@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2020-01-22T12:07:58.786+05:30"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2020-01-22T12:07:58.786+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.5.0"
+    fixedBugs=""
+    group="com.AEM.example"
+    lastUnwrapped="{Date}2020-01-22T12:07:58.786+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-01-22T12:07:58.786+05:30"
+    lastWrappedBy="admin"
+    name="AutoSlideShow"
+    providerLink=""
+    providerName=""
+    providerUrl=""
+    testedWith=""
+    version="">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/example/components/content/autoslideshow"
+            rules="[]"/>
+    </filter>
+    <screenshots jcr:primaryType="nt:unstructured"/>
+</jcr:root>
