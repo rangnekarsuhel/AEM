@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2020-03-26T19:34:26.551+05:30"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2020-03-26T19:34:26.551+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.5.0"
+    dependencies="[\0]"
+    fixedBugs=""
+    group="AEMMaven22"
+    lastUnwrapped="{Date}2020-03-26T19:34:26.551+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2020-03-26T19:34:26.551+05:30"
+    lastWrappedBy="admin"
+    name="NseStock"
+    providerLink=""
+    providerName=""
+    providerUrl=""
+    testedWith=""
+    version="">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/AEMMaven22/components/content/stock"
+            rules="[]"/>
+    </filter>
+    <screenshots jcr:primaryType="nt:unstructured"/>
+</jcr:root>
