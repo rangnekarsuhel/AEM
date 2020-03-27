@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: AEMMaven22:multifield
+Content-Package-Roots: /apps/AEMMaven22/components/content/multifield
+Content-Package-Type: application
+

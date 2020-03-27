@@ -1,0 +1,16 @@
+<div data-sly-use.multiItems="com.aem.traning.core.models.Multifield">
+	<div class="owl-item active" data-sly-list.head="${multiItems.multifield.listChildren}">
+	<p>
+			<b>Name:</b> ${head.sldTitle}
+		</p>
+        <p>
+			<b>Body:</b> ${head.sldDescription}
+		</p>
+        <p>
+			<b>ReadMore:</b> ${head.sldReadMore}
+		</p>
+	</div>
+</div>
+<sly data-sly-test="${!head}">
+<p>Enter the Values from Configuration.</p>
+</sly>
