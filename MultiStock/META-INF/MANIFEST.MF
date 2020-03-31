@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: AEMMaven22:MultiStock
+Content-Package-Roots: /apps/AEMMaven22/components/content/multistock
+Content-Package-Type: application
+

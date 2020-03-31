@@ -1,0 +1,36 @@
+<div data-sly-use.stock="com.aem.traning.core.models.MultifieldProcess">
+<h2>NSE Stock Data.</h2>
+<table style="width: 37%;text-align: center;">
+
+</table>
+<table style="width: 37%;text-align: center;" >
+<thead>
+<tr>
+    <th>Symbol</th>
+    <th>Name</th>
+    <th>LastTradedPrice</th>
+    <th>High</th>
+    <th>Low</th>
+    <th>Pr. Close</th>
+    <th>LastTradedTime</th>
+ </tr>
+</thead>
+<tbody data-sly-list.item="${ stock.multiFieldItems }">
+  <tr>
+  <td>${item.stockSymbol}</td>
+  <td>${item.longName}</td>
+  <td>${item.regularMarketPrice}</td>
+  <td>${item.regularMarketDayHigh}</td>
+  <td>${item.regularMarketDayLow}</td>
+  <td>${item.regularMarketPreviousClose}</td>
+  <td>${item.regularMarketTime}</td>
+  </tr>
+  </tbody>
+</table>
+<p>Add more Stock symbol from Configuration.</p>
+</div>
+
+
+<sly data-sly-test="${!stock}">
+<p>Click here to configure the stock.</p>
+</sly>
