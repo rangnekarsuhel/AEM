@@ -1,0 +1,34 @@
+<h2>jQuery AJAX fetch the Value from API</h2>
+<div data-sly-use.multiItems="com.aem.traning.core.models.Multifield">
+<ul data-sly-list.head="${multiItems.multifield.listChildren}">
+  <li>
+      <button data-symbol="${head.stockSymbol}">${head.stockSymbol}</button>
+  </li>
+</ul>
+</div>
+<sly data-sly-test="${!head}">
+<p>Enter the more stock from Configuration.</p>
+</sly>
+<h2 id="stock-longName">Stock Name</h2>
+<table style="width: 37%;text-align: center;" >
+<thead>
+<tr>
+    <th>Symbol</th>
+    <th>LastTradedPrice</th>
+    <th>High</th>
+    <th>Low</th>
+    <th>Pr. Close</th>
+    <th>LastTradedTime</th>
+ </tr>
+</thead>
+<tbody id="ajax-example">
+  <tr>
+  <td id="stock-symbole">0000</td>
+  <td id="stock-currentPrice">0000</td>
+  <td id="stock-high">0000</td>
+  <td id="stock-low">0000</td>
+  <td id="stock-close">0000</td>
+  <td id="stock-time">0000</td>
+  </tr>
+  </tbody>
+</table>
